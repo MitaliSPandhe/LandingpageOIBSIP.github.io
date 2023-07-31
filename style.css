@@ -14,12 +14,33 @@
 
   }
   @media (max-width:400px) {
-    nav{
-     
-      font-size: 1rem;
+   #img2{
+      width: 30vh;
+      margin: 7px;
+      padding: 7px;
+    
+    }
+    #img1{
+      width: 35vh;
+      margin: 5px;
+      padding: 5px;
+      padding-right: 0px;
+      
+    }
+    #img3{
+      width: 25vh;
+      margin: 7px;
+      padding: 7px;
+      padding-right: 0px;
+      
     }
     
   }
+@media(max-width:991px){
+	body{
+		padding:0
+	}
+}
 
 a{
   float: right;
