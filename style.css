@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  #jumbotron{
+    padding: 2rem 1rem 3rem;
+    margin-bottom: 2rem;
+    background-color: rgba(0, 0, 0);
+    border-radius: 0;
+    color: white;
+    background-image:url(images/3.jpg);
+   background-position: center;
+   background-size: cover;
+
+  }
+  @media (max-width:400px) {
+    nav{
+     
+      font-size: 1rem;
+    }
+    
+  }
+
+a{
+  float: right;
+}
+.para{
+  text-align: center;
+  font-style: italic;
+  color: rgb(132, 16, 240,0.9);
+  padding: 10px;
+}
+#img2{
+  width: 40vh;
+  margin: 10px;
+  padding: 10px;
+
+}
+#img1{
+  width: 50vh;
+  margin: 5px;
+  padding: 5px;
+  padding-right: 0px;
+  
+}
+#img3{
+  width: 40vh;
+  margin: 10px;
+  padding: 10px;
+  padding-right: 0px;
+  
+}
+ #head{
+  padding: 10px;
+  margin: 10px;
+  padding-left: 1px;
+  font-family: Britannic Bold,Bahnschrift SemiBold Condensed;
+  font-weight: bold;
+  
+} 
+#para1{
+   font-family: 'Times New Roman', Times, serif;
+}
+#para2{
+   font-family: 'Times New Roman', Times, serif;
+}
+#car{
+  padding-top: 20px;
+  padding: 20px;
+  margin: 20px;
+ border:4px solid rgba(126, 12, 126, 0.3) ;
+ outline: none;
+  
+}
+#car img{
+  padding: 10px;
+  border: 10px;
+  
+   
+}
+#figure{
+	border-radius: 30px;
+outline: none;
+  
+  
+}
+#figure:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  border: 3px solid rgb(224, 93, 224);
+  
+}
+
+#view{
+  text-align: center;
+}
+.headpara{
+  color: rgb(132, 16, 240,0.9);
+  
+}
+.headpara h2{
+  font-style: bold;
+  font-family: Britannic Bold,Bahnschrift SemiBold Condensed;
+  font-weight: 100;
+ 
+
+}
+.headpara p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#btn button{
+  border-radius: 14px;
+  background-image: linear-gradient(#b01cdd,#6717c2);
+  color: white;
+
+}
+.footer{
+  background-image: linear-gradient(#8f09b8,#7b17ec);
+  padding: 30px;
+  color: white;
+}
+#icon{
+  background-color: rgb(88, 35, 148);
+  text-align: center;
+  color: white;
+ padding: 2px;
+font-size: 20px;
+
+}
